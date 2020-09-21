@@ -8,7 +8,6 @@ output:
     toc_float:
       collapsed: false
       smooth_scroll: false
-      
 knit: (function(input_file, encoding) {
   out_dir <- 'docs';
   rmarkdown::render(input_file,
