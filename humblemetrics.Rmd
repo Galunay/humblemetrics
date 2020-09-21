@@ -1,17 +1,16 @@
 ---
 title: "HumbleMetrics"
-knit: (function(input_file, encoding) {
-  out_dir <- 'docs';
-  rmarkdown::render(input_file,
- encoding=encoding,
- output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 author: "CosmoGalya"
 date: "9/21/2020"
 output: 
   html_document:
     toc: true
     toc_depth: 5
-  
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})  
 ---
 
 # Привет, дорогой студент!
